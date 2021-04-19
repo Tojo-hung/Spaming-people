@@ -8,6 +8,7 @@ def write(n):
     for i in range(n):
         pyautogui.write('boo')   # writes text into chat
         pyautogui.press('enter') # enter to send to chat
+        sleep(2)
 
 write(69)
 
